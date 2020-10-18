@@ -1,5 +1,6 @@
+/* Copied from about */
+
 body {
-  margin: 0%;
   /* background-color: #fff1d0; */
   /* background-color:#D1B490; */
   background-color: white;
@@ -26,32 +27,6 @@ header {
   border: 1px white solid;
   border-width: thin;
   z-index: 3;
-
-  /* background-color: #fff1d0; */
-}
-
-img {
-  width: 100%;
-  height: 50%;
-  z-index: 2;
-}
-
-.imgcontainer {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/* When resizing window, text moves */
-#centered p {
-  font-family: "Lovers Quarrel", cursive;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 8rem;
-  padding-top: 50px;
-  font-weight: normal;
 }
 
 nav :link {
@@ -62,49 +37,6 @@ nav :link {
   word-wrap: normal;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
-}
-
-main {
-  text-align: center;
-  word-wrap: normal;
-}
-
-.intro {
-  margin: 0 auto;
-  width: 78.13rem;
-  font-size: 1.8rem;
-  padding-top: 6rem;
-  font-family: "Lora", serif;
-}
-
-.aboutme {
-  display: inline-block;
-  width: 62.5rem;
-  margin: 0 auto;
-  font-size: 1.5rem;
-  padding: 1rem;
-  line-height: 2;
-  font-family: "Lora", serif;
-}
-
-.quick_summary {
-  display: block;
-  width: 62.5rem;
-  margin: 0 auto;
-  font-size: 1.3rem;
-  padding: 1rem;
-}
-
-.quick_summary h3 {
-  font-size: 2.5rem;
-  font-family: "Lora", serif;
-}
-li {
-  list-style-position: inside;
-  text-align: center;
-  padding: 1rem;
-  font-size: 1.5rem;
-  font-family: "Lora", serif;
 }
 
 #instagram {
@@ -130,4 +62,20 @@ footer {
   padding-top: 2em;
   padding-bottom: 4em;
   text-align: center;
+}
+
+/* End of Copied from About */
+
+main h2 {
+  font-family: "Lora", serif;
+  text-align: center;
+}
+div.email {
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+div.socials {
+  text-align: center;
+  font-family: "Lora", serif;
 }
