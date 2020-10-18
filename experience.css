@@ -81,10 +81,12 @@ section.education_section {
   list-style-position: inside;
   font-family: "Lora", serif;
   display: block;
+  position: relative;
+  right: 10%;
 }
 
 /* Professional section */
-.professional {
+div.professional {
   display: block;
   float: right;
 }
@@ -97,6 +99,8 @@ section.professional_section {
   list-style-position: inside;
   font-family: "Lora", serif;
   display: block;
+  position: relative;
+  left: 10%;
 }
 
 /* Research section */
@@ -113,6 +117,8 @@ section.research_section {
   list-style-position: inside;
   font-family: "Lora", serif;
   display: block;
+  position: relative;
+  right: 10%;
 }
 
 span.titles {
