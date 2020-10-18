@@ -1,0 +1,80 @@
+/* Copied from about */
+
+body {
+  margin: 0%;
+  /* background-color: #fff1d0; */
+  /* background-color:#D1B490; */
+  background-color: white;
+}
+
+h1 {
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+header {
+  font-family: "Cinzel", serif;
+  width: full;
+  height: full;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 1rem 1rem;
+  position: sticky;
+  margin: 1rem auto;
+  top: 0rem;
+  bottom: 0.625rem;
+  opacity: 50%;
+  background-color: white;
+  border: 1px white solid;
+  border-width: thin;
+  z-index: 3;
+}
+
+a:link {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  word-wrap: normal;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+#instagram {
+  content: url("C:/Users/Christian Mortera/Downloads/instagram.png");
+  height: 2em;
+  width: 2em;
+}
+
+#linkedin {
+  content: url("C:/Users/Christian Mortera/Downloads/linkedin.png");
+  height: 2em;
+  width: 2em;
+}
+
+#facebook {
+  content: url("C:/Users/Christian Mortera/Downloads/facebook.png");
+  height: 2em;
+  width: 2em;
+}
+
+footer {
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  text-align: center;
+}
+
+/* End of Copied from About */
+
+.education {
+  width: 500px;
+}
+
+.pro {
+  width: 500px;
+}
+
+.research {
+  width: 500px;
+}
