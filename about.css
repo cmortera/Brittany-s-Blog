@@ -1,5 +1,8 @@
 body {
   margin: 0%;
+  /* background-color: #fff1d0; */
+  /* background-color:#D1B490; */
+  background-color: white;
 }
 
 h1 {
@@ -23,6 +26,8 @@ header {
   border: 1px white solid;
   border-width: thin;
   z-index: 3;
+
+  /* background-color: #fff1d0; */
 }
 
 img {
