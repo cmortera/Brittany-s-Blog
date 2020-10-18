@@ -1,7 +1,6 @@
 /* Copied from about */
 
 body {
-  margin: 0%;
   /* background-color: #fff1d0; */
   /* background-color:#D1B490; */
   background-color: white;
@@ -67,14 +66,55 @@ footer {
 
 /* End of Copied from About */
 
-.education {
-  width: 500px;
+/* Education section */
+.edu {
+  display: block;
+  float: left;
 }
 
-.pro {
-  width: 500px;
+.education {
+  width: 40em;
 }
+
+section.education_section {
+  text-align: right;
+  list-style-position: inside;
+  font-family: "Lora", serif;
+  display: block;
+}
+
+/* Professional section */
+.professional {
+  display: block;
+  float: right;
+}
+
+.pro_img {
+  width: 40em;
+}
+section.professional_section {
+  text-align: left;
+  list-style-position: inside;
+  font-family: "Lora", serif;
+  display: block;
+}
+
+/* Research section */
 
 .research {
-  width: 500px;
+  width: 30em;
+  text-align: left;
+  display: block;
+  float: left;
+}
+
+section.research_section {
+  text-align: right;
+  list-style-position: inside;
+  font-family: "Lora", serif;
+  display: block;
+}
+
+span.titles {
+  text-align: center;
 }
